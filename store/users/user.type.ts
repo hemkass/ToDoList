@@ -1,0 +1,7 @@
+export const userType = {
+  ATTRIBUTE_USER: "user/ATTRIBUTE_USER:",
+  GET_USERS: "user/GET_USERS",
+  SET_USERS: "user/SET_USERS",
+  GET_CURRENT_USER: "user/GET_CURRENT_USER",
+  SET_CURRENT_USER: "user/SET_CURRENT_USER",
+};

@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@components": ["components"],
+      "@styles/*": ["styles/*"],
+      "@styles": ["styles"],
+      "@assets/*": ["public/assets/*"],
+      "@public": ["public"],
+      "@api/*": ["pages/api/*"],
+      "@config/*": ["config/*"],
+      "@config": ["config"],
+      "@customTypes/*": ["customTypes/*"],
+      "@customTypes": ["customTypes"],
+
+      "@models/*": ["models/*"],
+      "@models": ["models"],
+      "@taskbar": ["components/Taskbar"],
+      "@taskbar/*": ["components/Taskbar/*"],
+      "@store/*": ["store/*"],
+      "@store": ["store"],
+      "@utils/*": ["utils/*"],
+      "@utils": ["utils"],
+      "@styledComponents": ["styledComponents"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
